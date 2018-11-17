@@ -159,28 +159,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AntiDebug\AntiDebug.h" />
+    <ClInclude Include="AntiDebug\CMemPtr.h" />
+    <ClInclude Include="AntiDebug\crc32.h" />
+    <ClInclude Include="AntiDebug\internal.h" />
+    <ClInclude Include="AntiDebug\ldasm.h" />
+    <ClInclude Include="AntiDebug\wow64ext.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="XAntiDebug\CMemPtr.h" />
-    <ClInclude Include="XAntiDebug\crc32.h" />
-    <ClInclude Include="XAntiDebug\internal.h" />
-    <ClInclude Include="XAntiDebug\ldasm.h" />
-    <ClInclude Include="XAntiDebug\wow64ext.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="XAntiDebug\AntiDebug.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="example.cpp" />
+    <ClCompile Include="AntiDebug\AntiDebug.cpp" />
+    <ClCompile Include="AntiDebug\crc32.cpp" />
+    <ClCompile Include="AntiDebug\ldasm.cpp" />
+    <ClCompile Include="AntiDebug\wow64ext.cpp" />
+    <ClCompile Include="Kutsushita.cpp" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="XAntiDebug\crc32.cpp" />
-    <ClCompile Include="XAntiDebug\ldasm.cpp" />
-    <ClCompile Include="XAntiDebug\wow64ext.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="XAntiDebug\AntiDebug.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

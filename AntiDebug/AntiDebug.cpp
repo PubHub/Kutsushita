@@ -1,6 +1,6 @@
 //Author:Xjun
 
-#include "XAntiDebug.h"
+#include "AntiDebug.h"
 
 /*
  *	禁止目录重定向

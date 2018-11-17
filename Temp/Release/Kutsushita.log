@@ -1,0 +1,6 @@
+﻿  AntiDebug.cpp
+  Создание кода
+d:\github\kutsushita\kutsushita.cpp(32): warning C4723: возможное деление на 0
+  All 146 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  Kutsushita.vcxproj -> D:\GitHub\Kutsushita\\bin\ExternalFramework_x86.exe

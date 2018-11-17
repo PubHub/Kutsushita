@@ -9,10 +9,6 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="AntiDebug">
       <UniqueIdentifier>{f7a43d3a-90d2-49ab-a22e-359c4dab1657}</UniqueIdentifier>
     </Filter>
@@ -24,22 +20,22 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="XAntiDebug\CMemPtr.h">
+    <ClInclude Include="AntiDebug\AntiDebug.h">
       <Filter>AntiDebug</Filter>
     </ClInclude>
-    <ClInclude Include="XAntiDebug\crc32.h">
+    <ClInclude Include="AntiDebug\CMemPtr.h">
       <Filter>AntiDebug</Filter>
     </ClInclude>
-    <ClInclude Include="XAntiDebug\internal.h">
+    <ClInclude Include="AntiDebug\crc32.h">
       <Filter>AntiDebug</Filter>
     </ClInclude>
-    <ClInclude Include="XAntiDebug\ldasm.h">
+    <ClInclude Include="AntiDebug\internal.h">
       <Filter>AntiDebug</Filter>
     </ClInclude>
-    <ClInclude Include="XAntiDebug\wow64ext.h">
+    <ClInclude Include="AntiDebug\ldasm.h">
       <Filter>AntiDebug</Filter>
     </ClInclude>
-    <ClInclude Include="XAntiDebug\AntiDebug.h">
+    <ClInclude Include="AntiDebug\wow64ext.h">
       <Filter>AntiDebug</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,19 +43,19 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="example.cpp">
+    <ClCompile Include="Kutsushita.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="XAntiDebug\crc32.cpp">
+    <ClCompile Include="AntiDebug\AntiDebug.cpp">
       <Filter>AntiDebug</Filter>
     </ClCompile>
-    <ClCompile Include="XAntiDebug\ldasm.cpp">
+    <ClCompile Include="AntiDebug\crc32.cpp">
       <Filter>AntiDebug</Filter>
     </ClCompile>
-    <ClCompile Include="XAntiDebug\wow64ext.cpp">
+    <ClCompile Include="AntiDebug\ldasm.cpp">
       <Filter>AntiDebug</Filter>
     </ClCompile>
-    <ClCompile Include="XAntiDebug\AntiDebug.cpp">
+    <ClCompile Include="AntiDebug\wow64ext.cpp">
       <Filter>AntiDebug</Filter>
     </ClCompile>
   </ItemGroup>

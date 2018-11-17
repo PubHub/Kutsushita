@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define SOURCE_IN_CP932
-#include "XAntiDebug/XAntiDebug.h"
+#include "AntiDebug/AntiDebug.h"
 #include <iostream>
 #include <windows.h>
 #include <WinUser.h>
